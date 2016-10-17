@@ -3,6 +3,7 @@
 <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
 <style>
 
 @font-face {
@@ -26,7 +27,7 @@ div #notebook { /* centre the content */
 }
 
 #notebook li { /* More space between bullet points */
-margin-top:0.8em;
+    margin-top:0.8em;
 }
 
 /* draw border around running cells */
@@ -65,7 +66,8 @@ div.text_cell_render{
     margin-bottom: 0.5em;
     margin-top: 0.5em;
     display: block;
-}	
+}
+
 .text_cell_render h2 {
     font-family: 'Nixie One', serif;
     font-weight: 400;
@@ -80,7 +82,7 @@ div.text_cell_render{
 .text_cell_render h3 {
     font-family: 'Nixie One', serif;
     margin-top:16px;
-	font-size: 22pt;
+    font-size: 22pt;
     font-weight: 600;
     margin-bottom: 3px;
     font-style: regular;
@@ -118,10 +120,19 @@ div.text_cell_render{
 }
 
 .CodeMirror{
-        font-family: "PT Mono";
-        font-size: 90%;
+    font-family: "Source Code Pro";
+    font-size: 90%;
 }
 
+.alert-box {
+    padding:10px 10px 10px 36px;
+    margin:5px;
+}
+
+.success {
+    color:#666600;
+    background:rgb(240,242,229);
+}
 </style>
 <script>
     MathJax.Hub.Config({
